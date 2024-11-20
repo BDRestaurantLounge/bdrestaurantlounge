@@ -689,3 +689,20 @@ nav ul {
     font-size: 14px;
     color: #aaa;
 }
+.hero-video {
+  width: 100vw; /* Set video width to the viewport width */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure the video covers the container */
+}
+
+@media (max-width: 768px) {
+  .hero-video {
+    object-fit: contain; /* Adjust for mobile to show the full video */
+    height: 100vh; /* Make the video fill the screen height */
+  }
+}
+
+.hero {
+  position: relative;
+  overflow: hidden; /* Prevent content overflow */
+}
