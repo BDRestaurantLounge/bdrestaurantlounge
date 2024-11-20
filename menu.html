@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | BD Restaurant Lounge</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="menu.css">
+
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="header">
+    <div class="logo">
+    <a href="index.html">
+        <img src="Plogo.jpeg" alt="Company Logo" class="logo" />  </a></div>
+    <nav class="nav">
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><button class="contact-btn" onclick="location.href='contact.html'">Contact</button></li>
+    </ul>
+
+    </nav>
+            <!-- Hamburger Icon for Mobile -->
+            <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <!-- Mobile Navigation -->
+            <div class="mobile-nav" id="mobileNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="menu.html">Services</a></li>
+                    <li><button class="contact-btn" onclick="location.href='contact.html'">Contact Us</a></li>
+                    </ul>
+            </div>
+  </header>
+
+  <!-- Breakfast Menu Section -->
+  <section class="menu-section">
+    <h2>Breakfast Menu</h2>
+    <div class="menu-category">
+      <h3>Biscuits</h3>
+      <ul>
+        <li>Salmon Biscuit <span>$5.75</span></li>
+        <li>Cheese Egg Biscuit <span>$4.55</span></li>
+        <li>Patty Sausage Biscuit <span>$4.75</span></li>
+        <li>Turkey Sausage Biscuit <span>$4.99</span></li>
+        <li>Link Sausage Biscuit <span>$5.75</span></li>
+        <li>Steak Biscuit <span>$5.75</span></li>
+        <li>Bacon Biscuit <span>$4.75</span></li>
+        <li>Fat Back Biscuit <span>$4.99</span></li>
+        <li>Pork Chop Biscuit <span>$6.25</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Happy Hour Menu Section -->
+  <section class="menu-section">
+    <h2>Happy Hour Menu</h2>
+    <p><strong>Monday - Friday: 3 PM - 7 PM</strong></p>
+    <div class="menu-category">
+      <h3>Cocktails</h3>
+      <ul>
+        <li>Margarita <span>$5.00</span></li>
+        <li>Mojito <span>$5.00</span></li>
+        <li>Cosmopolitan <span>$8.00</span></li>
+        <li>Old Fashioned <span>$8.00</span></li>
+        <li>Pina Colada <span>$7.50</span></li>
+        <li>Martini <span>$8.00</span></li>
+        <li>Whiskey Sour <span>$7.50</span></li>
+        <li>Daiquiri <span>$5.00</span></li>
+        <li>Sex on the Beach <span>$7.50</span></li>
+        <li>Gin and Tonic <span>$5.50</span></li>
+        <li>Bloody Mary <span>$5.50</span></li>
+        <li>Blue Lagoon <span>$5.00</span></li>
+      </ul>
+    </div>
+    <div class="menu-category">
+      <h3>Wine</h3>
+      <ul>
+        <li>Chardonnay <span>$5.00</span></li>
+        <li>Sauvignon Blanc <span>$6.00</span></li>
+        <li>Sparkling Wine <span>$6.50</span></li>
+        <li>Sangria <span>$6.50</span></li>
+        <li>Tempranillo <span>$6.50</span></li>
+        <li>Merlot <span>$6.00</span></li>
+        <li>Pinot Noir <span>$6.50</span></li>
+        <li>Pinot Grigio <span>$6.50</span></li>
+        <li>Zinfandel <span>$6.50</span></li>
+      </ul>
+    </div>
+    <div class="menu-category">
+      <h3>Beer</h3>
+      <ul>
+        <li>Michelob Ultra <span>$3.00</span></li>
+        <li>Coors <span>$3.50</span></li>
+        <li>Bud Light <span>$3.50</span></li>
+      </ul>
+    </div>
+    <div class="menu-category">
+      <h3>Snacks</h3>
+      <ul>
+        <li>Loaded Nachos <span>$6.00</span></li>
+        <li>Chicken Wings <span>$9.00</span></li>
+        <li>Chips & Salsa <span>$5.00</span></li>
+        <li>Mini Sliders <span>$8.00</span></li>
+        <li>Garden Salad <span>$5.00</span></li>
+      </ul>
+    </div>
+  </section>
+<!-- Appetizers Section -->
+<section class="menu-section">
+    <h2>Appetizers</h2>
+    <div class="menu-category">
+        <ul>
+            <li class="menu-item">
+                <span class="item-description">
+                    Lobster Bites
+                    <p>Served with lemon butter sauce.</p>
+                </span>
+                <span class="item-price">$15.00</span>
+            </li>
+            <li class="menu-item">
+                <span class="item-description">6 Piece Party Wings</span>
+                <span class="item-price">$9.00</span>
+            </li>
+            <li class="menu-item">
+                <span class="item-description">
+                    Exclusive Nachos
+                    <p>Choose shrimp, beef, or chicken with cheese, lettuce, tomatoes, onions, salsa, and sour cream.</p>
+                </span>
+                <span class="item-price">$18.00 / $15.00</span>
+            </li>
+            <li class="menu-item">
+                <span class="item-description">
+                    Quesadilla
+                    <p>Choose shrimp, beef, or chicken with cheese, lettuce, tomatoes, onions, salsa, and sour cream.</p>
+                </span>
+                <span class="item-price">$14.00 / $12.00</span>
+            </li>
+            <li class="menu-item">
+                <span class="item-description">Deep-Fried Pickles</span>
+                <span class="item-price">$8.49</span>
+                <p class="item-details">Battered.</p>
+            </li>
+            <li class="menu-item">
+                <span class="item-description">
+                    Loaded Fries
+                    <p>Jerk beef or chicken, cheese, bell pepper, and onions.</p>
+                </span>
+                <span class="item-price">$10.00</span>
+            </li>
+        </ul>
+    </div>
+</section>
+
+  
+  
+  <!-- Salads Section -->
+  <section class="menu-section">
+    <h2>Salads</h2>
+    <div class="menu-category">
+      <ul>
+        <li>Whiting <span>$12.50</span></li>
+        <li>Salmon <span>$18.50</span></li>
+        <li>Grilled Chicken <span>$15.00</span></li>
+        <li>Shrimp <span>$17.00</span></li>
+        <li>Garden <span>$8.00</span></li>
+      </ul>
+    </div>
+  </section>
+  
+  <!-- Entrees Section -->
+<section class="menu-section">
+    <h2>Entrees</h2>
+    <div class="menu-category">
+      <ul>
+        <li class="menu-item">
+          <span class="item-description">
+            Blackened Salmon
+            <p>Fried or grilled over yellow rice with two sides.</p>
+          </span>
+          <span class="item-price">$23.00</span>
+        </li>
+        <li class="menu-item">
+          <span class="item-description">
+            Seafood Pasta
+            <p>Choice of Protein</p>
+            <p>Broccoli, lobster, and shrimp over creamy pasta.</p>
+          </span>
+          <span class="item-price">$33.00</span>
+        </li>
+        <li class="menu-item">
+          <span class="item-description">
+            Pork Chop Dinner
+            <p>Grilled or fried with two sides.</p>
+          </span>
+          <span class="item-price">$22.00</span>
+        </li>
+        <li class="menu-item">
+            <span class="item-description">
+              Perfect Pasta
+              <p>Available options: Add broccoli or spinach. Two meats for $30.</p>
+            </span>
+            <span class="item-price"></span>
+          </li>
+          <ul class="sub-items">
+            <li class="sub-item">
+              <span class="sub-item-description">Chicken</span>
+              <span class="sub-item-price">$18.00</span>
+            </li>
+            <li class="sub-item">
+              <span class="sub-item-description">Shrimp</span>
+              <span class="sub-item-price">$22.50</span>
+            </li>
+            <li class="sub-item">
+              <span class="sub-item-description">Salmon</span>
+              <span class="sub-item-price">$24.00</span>
+            </li>
+          </ul>
+<!-- Southern Fried Baskets Section -->
+<li class="menu-item">
+    <span class="item-description">3 Whole Wings</span>
+    <span class="item-price">$13.00</span>
+  </li>
+  <li class="menu-item">
+    <span class="item-description">Whiting</span>
+    <span class="item-price">$11.00</span>
+  </li>
+  <li class="menu-item">
+    <span class="item-description">Catfish</span>
+    <span class="item-price">$15.00</span>
+  </li>
+  <li class="menu-item">
+    <span class="item-description">Pork Chop Sandwich</span>
+    <span class="item-price">$11.50</span>
+  </li>
+        <li class="menu-item">
+          <span class="item-description">
+            Beef Veggie Burgers
+            <p>Served with French fries. Add cheese of choice.</p>
+          </span>
+          <span class="item-price">$12.50</span>
+        </li>
+<!-- Loaded Stuffed Baked Potatoes Section -->
+<li class="menu-item">
+    <span class="item-description">Beef</span>
+    <span class="item-price">$15.00</span>
+  </li>
+  <li class="menu-item">
+    <span class="item-description">Chicken</span>
+    <span class="item-price">$16.00</span>
+  </li>
+  <li class="menu-item">
+    <span class="item-description">Shrimp</span>
+    <span class="item-price">$17.00</span>
+  </li>
+        <li class="menu-item">
+          <span class="item-description">
+            Steak Dinner
+            <p>Steak comes with loaded baked potato and broccoli.</p>
+          </span>
+          <span class="item-price">$25.00</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+  
+  
+  <!-- Side Items Section -->
+  <section class="menu-section">
+    <h2>Side Items</h2>
+    <div class="menu-category">
+      <ul>
+        <li>Yellow Rice <span>$3.75</span></li>
+        <li>Collards <span>$3.75</span></li>
+        <li>Lobster Mac <span>$8.00</span></li>
+        <li>Broccoli <span>$3.75</span></li>
+        <li>Onion Rings <span>$3.75</span></li>
+      </ul>
+    </div>
+  </section>
+  
+ <!-- Footer -->
+ <footer class="footer">
+    <div class="footer-column">
+      <a href="index.html">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+    <div class="footer-column logo-column">
+        <a href="index.html">
+            <img src="Plogo.jpeg" alt="Company Logo" class="logo" />   <p>© 2024 B&D Restaurant & Lounge. All Rights Reserved.</p></a></div>
+     
+    </div>
+    <div class="footer-column">
+      <p>Phone: (470) 268-6895</p>
+      <p>Address: 5910 Fairington Rd, </p>
+        <p>Lithonia, GA 30038</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+</html>
+

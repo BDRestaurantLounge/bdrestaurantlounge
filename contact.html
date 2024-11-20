@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B&D Restaurant & Lounge</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="header">
+    <div class="logo">
+    <a href="index.html">
+        <img src="Plogo.jpeg" alt="Company Logo" class="logo" />  </a></div>
+    <nav class="nav">
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><button class="contact-btn" onclick="location.href='contact.html'">Contact</button></li>
+    </ul>
+
+    </nav>
+            <!-- Hamburger Icon for Mobile -->
+            <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <!-- Mobile Navigation -->
+            <div class="mobile-nav" id="mobileNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><button class="contact-btn" onclick="location.href='contact.html'">Contact Us</a></li>
+                    </ul>
+            </div>
+  </header>
+ <!-- Hero Section -->
+<section class="hero" style="background-image: url('imagejpeg_0\ \(2\).jpeg');">
+    <div class="hero-text">
+
+    </div>
+  </section>
+  
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Get in Touch</h2>
+    <div class="contact-info">
+      <p><strong>Address:</strong>  5910 Fairington Rd, Lithonia, GA 30038</p>
+      <p><strong>Phone:</strong> <a href="tel:+4702686895">(470) 268-6895</a></p>
+    </div> <br>
+    <div class="contact-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6638.490600586191!2d-84.148833!3d33.702601!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5acf8ab365bd3%3A0x1ff26462ebd322b1!2s5910%20Fairington%20Rd%2C%20Stonecrest%2C%20GA%2030038!5e0!3m2!1sen!2sus!4v1732070122282!5m2!1sen!2sus"
+        width="100%"
+        height="300"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-column">
+      <a href="index.html">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+    <div class="footer-column logo-column">
+        <a href="index.html">
+            <img src="Plogo.jpeg" alt="Company Logo" class="logo" />   <p>© 2024 B&D Restaurant & Lounge. All Rights Reserved.</p></a></div>
+     
+    </div>
+    <div class="footer-column">
+      <p>Phone: (470) 268-6895</p>
+      <p>Address: 5910 Fairington Rd, </p>
+        <p>Lithonia, GA 30038</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B&D Restaurant & Lounge</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="header">
+    <div class="logo">
+    <a href="index.html">
+        <img src="Plogo.jpeg" alt="Company Logo" class="logo" />  </a></div>
+    <nav class="nav">
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><button class="contact-btn" onclick="location.href='contact.html'">Contact</button></li>
+    </ul>
+
+    </nav>
+            <!-- Hamburger Icon for Mobile -->
+            <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <!-- Mobile Navigation -->
+            <div class="mobile-nav" id="mobileNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><button class="contact-btn" onclick="location.href='contact.html'">Contact Us</a></li>
+                    </ul>
+            </div>
+  </header>
+<!-- Hero Section -->
+<section class="hero">
+    <video autoplay muted loop class="hero-video">
+      <source src="6174377-hd_1920_1080_30fps.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="hero-content">
+      <h1>Experience Culinary Excellence & Cozy Vibes</h1>
+      <a href="menu.html" class="btn">View Menu</a>
+    </div>
+  </section>
+  
+  <section class="reviews-section">
+    <h2>Customer Reviews</h2>
+    <div class="reviews-carousel">
+      <div class="review"> <!-- Ensure only one is visible at a time -->
+        <p class="review-text">"This place is a very nice chill place hookah are Awesome The food you get Nice is portions food for the price the drinks are 😊 🥰🥰
+            "</p>
+        <p class="review-author">- Carmen Birdsong</p>
+        <div class="star-rating">⭐⭐⭐⭐⭐</div>
+      </div>
+      <div class="review">
+        <p class="review-text">"My home girl and I saw the FreakNik poster and it and my attention. So we decided to pull up and see what it was about. The food was on point, the drinks were a hit, and the whole place was a vibe. There are so many different rooms and areas to be in that you really could get lost. But I am so happy we came it was a great experience they had a wet t-shirt contest a pool the parking lot was packed to the brim but we all amde it out safe and around and enjoyed ourselves."</p>
+        <p class="review-author">- Cakes Warren</p>
+        <div class="star-rating">⭐⭐⭐⭐⭐</div>
+      </div>
+      <div class="review">
+        <p class="review-text">"Everything was great! Service, food, drinks, and music was on point. Fried chicken wingettes and catfish were seasoned to perfection. The Bob Marley drink was bomb. We found this spot on our visit from Virginia and next time we visit we most definitely will be back."</p>
+        <p class="review-author">- Javonne "Sunshine" Reid</p>
+        <div class="star-rating">⭐⭐⭐⭐⭐</div>
+      </div>
+    </div>
+    <button class="prev">❮</button>
+    <button class="next">❯</button>
+  </section>
+  
+  
+
+  <!-- About Section -->
+ <section id="about" class="about">
+    <h2>Our Story</h2>
+    <div class="about-content">
+      <div class="text">
+        <p>Welcome to B&D Restaurant & Lounge. Enjoy our exquisite cuisine and elegant ambiance.</p>
+      </div>
+      <div class="gallery"> 
+        <img src="chickenwings.jpg" alt="Dish 1">
+        <img src="drinks.jpg" alt="Dish 2">
+      </div>
+    </div>
+  </section>
+  
+
+
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-column">
+      <a href="index.html">Home</a>
+      <a href="#about">About</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+    <div class="footer-column logo-column">
+        <a href="index.html">
+            <img src="Plogo.jpeg" alt="Company Logo" class="logo" />   <p>© 2024 B&D Restaurant & Lounge. All Rights Reserved.</p></a></div>
+     
+    </div>
+    <div class="footer-column">
+      <p>Phone: (470) 268-6895</p>
+      <p>Address: 5910 Fairington Rd, </p>
+        <p>Lithonia, GA 30038</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+</html>
+
