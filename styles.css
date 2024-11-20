@@ -133,7 +133,7 @@
   .footer {
     display: flex;
     justify-content: space-between;
-    background: #001322;
+    background: #b4d0eb;
     color: #fff;
     padding: 20px;
   }
@@ -448,7 +448,8 @@ nav ul li a:hover {
 .footer {
     background-color: #001322;
     color: #fff;
-    padding: 40px 20px;
+    padding: 20px;
+    text-align: center;
   }
   
   .footer-container {
@@ -469,43 +470,44 @@ nav ul li a:hover {
   }
   
   /* Footer Columns */
+  .footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
   .footer-column {
     flex: 1;
-    max-width: 300px; /* Optional: Limit column width */
+    min-width: 200px;
+    margin: 10px;
+    text-align: center;
   }
   
-  .footer-column h3 {
-    margin-bottom: 10px;
-    font-size: 18px;
-    text-transform: uppercase;
-  }
-  
-  .footer-column ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .footer-column ul li {
-    margin: 5px 0;
-  }
-  
-  .footer-column ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .footer-column ul li a:hover {
-    text-decoration: underline;
+  .logo-column {
+    text-align: center;
   }
   
   .footer-logo {
-    max-width: 150px;
+    max-width: 100px;
     margin-bottom: 10px;
   }
   
-  .footer p {
-    font-size: 14px;
-    line-height: 1.5;
+  .footer a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-copyright {
+    margin-top: 10px;
+    font-size: 0.9rem;
   }
   
   /* Make the footer responsive */
@@ -679,4 +681,11 @@ nav ul {
         font-size: 1rem;
         padding: 10px 20px;
     }
+}
+.copyright {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0; /* Adjust space within the footer */
+    font-size: 14px;
+    color: #aaa;
 }
